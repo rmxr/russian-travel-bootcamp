@@ -9,8 +9,12 @@
 
 
 
+
 /* Элементы */
+@import url(../blocks/header/__lang-selector/header__lang-selector.css);
+@import url(../blocks/header/__lang-selector-link/header__lang-selector-link.css);
 
 
 
 /* Модификаторы */
+@import url(../blocks/header/__lang-selector-link/_active/header__lang-selector-link_active.css);
