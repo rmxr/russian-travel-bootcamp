@@ -1,0 +1,7 @@
+.lead__image {
+  aspect-ratio: preserve;
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 64px auto 0;
+}
