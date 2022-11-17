@@ -1,1 +1,5 @@
-.places {}
+.places {
+  list-style-type: none;
+  color: white;
+
+}
