@@ -1,5 +1,6 @@
 .lead__image {
   aspect-ratio: preserve;
+  line-height: 0;
   display: block;
   width: 100%;
   height: auto;
