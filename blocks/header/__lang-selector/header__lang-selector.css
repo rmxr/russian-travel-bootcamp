@@ -7,3 +7,11 @@
   right: 0;
   gap: 18px;
 }
+
+@media screen and (max-width: 767px) {
+  .header__lang-selector {
+    font-size: 1.125rem;
+    top: 30px;
+  }
+
+}
