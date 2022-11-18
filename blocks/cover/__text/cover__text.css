@@ -1,22 +1,5 @@
 .cover__text {
-  position: absolute;
-  top: 245px;
-  left: 50%;
-  translate: -50%;
   width: 560px;
-}
-
-
-@media screen and (max-width: 1279px) {
-  .cover__text {
-    top: 195px;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .cover__text {
-    top: 115px;
-  }
 }
 
 @media screen and (max-width: 767px) {
