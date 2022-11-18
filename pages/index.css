@@ -11,6 +11,7 @@
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/places/places.css);
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/footer/footer.css);
 
 
 
@@ -40,7 +41,9 @@
 @import url(../blocks/cover/__image/cover__image.css);
 @import url(../blocks/cover/__image-overlay/cover__image-overlay.css);
 @import url(../blocks/cover/__text/cover__text.css);
-
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__author/footer__author.css);
 
 /* Модификаторы */
 @import url(../blocks/header/__lang-selector-link/_active/header__lang-selector-link_active.css);
