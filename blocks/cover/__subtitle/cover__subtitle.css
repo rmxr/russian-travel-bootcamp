@@ -5,5 +5,15 @@
   line-height: 22px;
   letter-spacing: 0em;
   text-align: center;
-  width: 65%;
+  width: 360px;
+}
+
+
+@media screen and (max-width: 767px) {
+  .cover__subtitle {
+    margin-top: 16px;
+    font-size: 14px;
+    line-height: 16px;
+    width: 288px;
+  }
 }

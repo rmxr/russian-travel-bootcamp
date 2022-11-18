@@ -7,7 +7,12 @@
   text-align: center;
 }
 
-
+@media screen and (max-width: 767px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
 
 /* position: absolute;
   top: 245px;
