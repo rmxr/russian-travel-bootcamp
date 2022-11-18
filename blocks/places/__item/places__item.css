@@ -9,3 +9,32 @@
 .places__item:not(:last-child) {
   margin: 0 0 80px 0;
 }
+
+@media screen and (max-width: 1279px) {
+  .places__item {
+    gap: 48px 32px;
+    grid-template-columns: 440px 1fr;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .places__item {
+    gap: 48px 28px;
+    grid-template-columns: 340px 1fr;
+  }
+
+  .places__item:not(:last-child) {
+    margin: 0 0 73px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places__item {
+    grid-template-columns: 320px;
+    gap: 32px;
+  }
+
+  .places__item:not(:last-child) {
+    margin: 0 0 50px 0;
+  }
+}

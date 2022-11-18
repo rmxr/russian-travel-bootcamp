@@ -10,3 +10,21 @@
 .places__paragraph:not(:last-child) {
   margin: 0 0 26px;
 }
+
+
+@media screen and (max-width: 1023px) {
+  .places__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places__paragraph {
+    margin: 0 16px 0;
+  }
+
+  .places__paragraph:not(:last-child) {
+    margin: 0 16px 25px;
+  }
+}
