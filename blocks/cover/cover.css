@@ -8,6 +8,10 @@
   text-decoration: none;
 }
 
+.cover:hover .cover__image-overlay {
+  opacity: .8;
+}
+
 
 @media screen and (max-width: 1279px) {
   .cover {
