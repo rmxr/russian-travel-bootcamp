@@ -1,0 +1,18 @@
+.cover {
+  color: white;
+  position: relative;
+  display: block;
+  width: 1184px;
+  height: 740px;
+  margin: 92px auto 0;
+  text-decoration: none;
+}
+
+
+@media screen and (max-width: 1279px) {
+  .cover {
+    width: 100%;
+    height: auto;
+  }
+
+}

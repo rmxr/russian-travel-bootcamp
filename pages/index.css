@@ -10,6 +10,7 @@
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/places/places.css);
+@import url(../blocks/cover/cover.css);
 
 
 
@@ -34,6 +35,11 @@
 @import url(../blocks/places/__image/places__image.css);
 @import url(../blocks/places/__description/places__description.css);
 @import url(../blocks/places/__paragraph/places__paragraph.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__image/cover__image.css);
+@import url(../blocks/cover/__image-overlay/cover__image-overlay.css);
+@import url(../blocks/cover/__text/cover__text.css);
 
 
 /* Модификаторы */
