@@ -5,7 +5,6 @@
 /* Блоки */
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
-@import url(../blocks/content/content.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/intro/intro.css);
@@ -15,14 +14,12 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/link-hover/link-hover.css);
 
-
-
-
 /* Элементы */
 @import url(../blocks/header/__content/header__content.css);
 @import url(../blocks/header/__lang-selector/header__lang-selector.css);
 @import url(../blocks/header/__lang-selector-link/header__lang-selector-link.css);
 @import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__figure/lead__figure.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
@@ -30,6 +27,8 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
+@import url(../blocks/photo-grid/__container/photo-grid__container.css);
+@import url(../blocks/places/__container/places__container.css);
 @import url(../blocks/places/__item/places__item.css);
 @import url(../blocks/places/__title/places__title.css);
 @import url(../blocks/places/__website/places__website.css);
@@ -38,6 +37,7 @@
 @import url(../blocks/places/__image/places__image.css);
 @import url(../blocks/places/__description/places__description.css);
 @import url(../blocks/places/__paragraph/places__paragraph.css);
+@import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__text/cover__text.css);
@@ -47,3 +47,4 @@
 
 /* Модификаторы */
 @import url(../blocks/header/__lang-selector-link/_active/header__lang-selector-link_active.css);
+@import url(../blocks/intro/__list-item/_strong/intro__list-item_strong.css);
