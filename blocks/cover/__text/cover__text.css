@@ -4,7 +4,6 @@
 
 @media screen and (max-width: 767px) {
   .cover__text {
-    top: 33px;
     width: 288px;
   }
 }

@@ -8,21 +8,25 @@
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 
-<body>
-  <main class="page">
-    <!-- Шапка -->
-    <header class="header">
+<body class="page">
+  <!-- Шапка -->
+  <header class="header">
+    <div class="header__content">
       <div class="logo"></div>
-      <div class="header__lang-selector">
-        <a class="header__lang-selector-link header__lang-selector-link_active" href="#">Ru</a>
-        <a class="header__lang-selector-link" href="#">En</a>
-      </div>
-    </header>
+      <ul class="header__lang-selector">
+        <li><a class="header__lang-selector-link header__lang-selector-link_active link-hover" href="#">Ru</a></li>
+        <li><a class="header__lang-selector-link link-hover" href="#">En</a></li>
+
+      </ul>
+    </div>
+  </header>
+
+  <main class="content">
 
     <!-- Lead -->
     <section class="lead">
       <h1 class="lead__title">Путешествия по России</h1>
-      <h2 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h2>
+      <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
       <img class="lead__image" src="./images/lead__image.jpg" alt="Ваша полка - верхняя">
       <p class="lead__caption">ваша полка — верхняя</p>
     </section>
@@ -192,8 +196,8 @@
 
     <!-- Footer -->
     <footer class="footer">
-      <nav class="footer__links">
-        <ul>
+      <nav>
+        <ul class="footer__links">
           <li><a href="https://yandex.ru/maps" target="_blank" class="footer__link link-hover">Карты</a></li>
           <li><a href="https://yandex.ru/pogoda" target="_blank" class="footer__link link-hover">Погода</a></li>
           <li><a href="https://rasp.yandex.ru" target="_blank" class="footer__link link-hover">Расписание</a></li>
