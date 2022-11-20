@@ -13,6 +13,7 @@
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/link-hover/link-hover.css);
+@import url(../blocks/strong/strong.css);
 
 /* Элементы */
 @import url(../blocks/header/__content/header__content.css);
@@ -47,4 +48,3 @@
 
 /* Модификаторы */
 @import url(../blocks/header/__lang-selector-link/_active/header__lang-selector-link_active.css);
-@import url(../blocks/intro/__list-item/_strong/intro__list-item_strong.css);
